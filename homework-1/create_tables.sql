@@ -8,7 +8,6 @@ CREATE TABLE employees
 	birth_date date NOT NULL,
 	notes text
 );
-SELECT * FROM employees;
 
 CREATE TABLE customers
 (
@@ -17,7 +16,6 @@ CREATE TABLE customers
 	contact_name varchar(100) NOT NULL
 );
 
-SELECT * FROM customers;
 
 CREATE TABLE orders
 (
@@ -27,5 +25,3 @@ CREATE TABLE orders
 	order_date date Not NULL,
 	ship_sity varchar(30)
 );
-
-SELECT * FROM customers;
